@@ -1,9 +1,10 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* resources/css/app.css */
-@layer base {
+
 @font-face {
     font-family: 'Lufga';
     src: url('/public/fonts/LufgaBlack.tff') format('ttf'), 
@@ -12,7 +13,7 @@
     font-weight: normal;
     font-style: normal;
 }
-}
+
 
 /* Use the font */
 body {

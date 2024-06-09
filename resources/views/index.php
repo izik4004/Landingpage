@@ -3,16 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/resources/css/app.css">
+
         <title>Raily</title>
         @vite('resources/css/app.css')
 
      
     </head>
     <body class="antialiased font-body bg-black text-white px-6 font-lufga">
-   
+   <h1 class="text-red-500">izikf</h1>
 
-<nav class=" shadow-lg py-2">
+<!-- <nav class=" shadow-lg py-2">
     <div class=" mx-auto flex justify-between items-center">
       <div class="text-xl font-bold">
 
@@ -83,7 +83,7 @@
   @include('sections.allFeatures')
   @include('sections.arMode')
 
-</main>
+</main> -->
 
 
 
