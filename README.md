@@ -2,14 +2,14 @@
 
 ## Commands to run
 
-composer install
-npm install
-php artisan migrate
+composer install <br>
+npm install <br>
+php artisan migrate <br>
 php artisan key:generate 
 
 ## To start the project
-Open your 2 terminal and run this code in each
-php artisan serve (to start the laravel project)
+Open your 2 terminal and run this code in each <br>
+php artisan serve (to start the laravel project) <br>
 npm run dev (to compile the css and javascript)
 
 
