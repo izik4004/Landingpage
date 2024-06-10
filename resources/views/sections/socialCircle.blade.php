@@ -1,6 +1,6 @@
 <section id="socialCircle">
     <div class="flex items-center justify-center">
-    <h1 class="text-7xl">Smartwatch as Social Circle</h1>
+    <h1 class="text-7xl ">Smartwatch <br class="lg:hidden md:hidden">as Social <br class="lg:hidden md:hidden">Circle</h1>
     </div>
 
 <div class="lg:py-[6rem] ">
