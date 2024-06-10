@@ -1,11 +1,12 @@
 
 
 ## Commands to run
-
+edit the .env sample to .env
 composer install <br>
 npm install <br>
 php artisan migrate <br>
-php artisan key:generate 
+php artisan key:generate <br>
+
 
 ## To start the project
 Open your 2 terminal and run this code in each <br>
