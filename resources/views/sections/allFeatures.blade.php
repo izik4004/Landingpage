@@ -1,4 +1,4 @@
-<section class="">
+<section id="features">
     <div class="flex justify-center">
     <h3 class="lg:text-6xl text-5xl py-10">All Features</h3>
     </div>
@@ -8,7 +8,7 @@
             <div class="flex w-full gap-4">
                 <div> <img src="{{ asset('images/travel-concierge.webp') }}" alt="discover" class="w-[32rem]"></div>
                 <div> <img src="{{ asset('images/deep-social.webp') }}" alt="discover" class="w-[32rem]"></div>
-                <div> <img src="{{ asset('images/matchmaking.webp') }}" alt="discover" class=" "></div>
+                <div> <img src="{{ asset('images/matchmaking.webp') }}" alt="discover" class=" box"></div>
             </div>
             <div class=" flex py-4 space-x-4">
                 <div class="w-1/3 gap-4 space-y-4">

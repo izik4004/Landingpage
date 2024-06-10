@@ -1,4 +1,4 @@
-<section class="">
+<section id="ecosystem">
     <div class="flex items-center justify-center pt-20">
     <h3 class="text-7xl text-center">Raily ecosystem</h3>
     </div>

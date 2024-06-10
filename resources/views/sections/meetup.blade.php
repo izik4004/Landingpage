@@ -1,4 +1,4 @@
-<section>
+<section id="meetup">
     <h3 class="text-center hidden lg:flex text-[12em] justify-center md:text-[6.5em] sm:text-[6em] py-12">Meet Raily where you can</h2>
     <h3 class="text-center lg:hidden text-5xl py-8">With Raily <br> you can</h2>
     <div class="container mx-auto px-4 py-8">

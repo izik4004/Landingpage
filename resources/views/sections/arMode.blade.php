@@ -1,4 +1,4 @@
-<section class=" w-full">
+<section class=" w-full" id="AI">
 <div class="lg:py-[6rem] ">
     <div class="lg:absolute relative lg:mt-[16rem] py-6 lg:py-0 lg:pl-[5rem] lg:w-[42em] w-full">
         <h3 class="text-6xl py-6 lg:py-0">AR mode</h3>

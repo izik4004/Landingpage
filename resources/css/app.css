@@ -149,5 +149,19 @@ body {
     background-size: cover;
      /* Make sure the background stays behind other content */
   }
-  
+
+  .box {
+ 
+    transition: transform 0.3s;
+  }
+
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
+    20%, 40%, 60%, 80% { transform: translateX(10px); }
+  }
+
+  .box:hover {
+    animation: shake 0.5s;
+  }
   

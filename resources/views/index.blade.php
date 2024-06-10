@@ -5,15 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Raily</title>
-        @vite('resources/css/app.css')
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
 
      
     </head>
-    <body class="antialiased font-body bg-black text-white px-6 font-lufga">
-   <h1 class="text-red-500">izikf</h1>
+    <body class="antialiased scroll-smooth font-body bg-black text-white px-6 font-lufga">
 
-<!-- <nav class=" shadow-lg py-2">
-    <div class=" mx-auto flex justify-between items-center">
+
+<nav class="fixed shadow-lg py-2">
+    <div class="lg:fixed mx-auto flex justify-between items-center">
       <div class="text-xl font-bold">
 
       <img src="{{ asset('images/railytextimg.svg') }}" alt="Raily" class="w-24">
@@ -28,21 +28,22 @@
       <div class="hidden md:flex space-x-4">
       <ul class="flex items-center rounded-3xl backdrop-blur-xl bg-white/20 py-2  px-4 gap-8">
     <li class="mx-2">
-      <a href="#section1" class="text-gray-300 text-sm hover:bg-white/30 hover:rounded-3xl hover:py-1 px-3">Meet up</a>
-      <a href="#section2" class="text-gray-300 text-sm hover:bg-gray-500 hover:rounded-3xl hover:py-1 px-3">AI</a>
-      <a href="#section3" class="text-gray-300 text-sm hover:bg-gray-500 hover:rounded-3xl hover:py-1 px-3">Gamification</a>
-      <a href="#section2" class="text-gray-300 text-sm hover:bg-gray-500 hover:rounded-3xl hover:py-1 px-3">AI</a>
-      <a href="#section3" class="text-gray-300 text-sm hover:bg-gray-500 hover:rounded-3xl hover:py-1 px-3">Gamification</a>
+      <a href="#meetup" class="text-gray-300 text-sm hover:bg-white/30 hover:rounded-3xl hover:py-1 px-3">Meet up</a>
+      <a href="#ecosystem" class="text-gray-300 text-sm hover:bg-gray-500 hover:rounded-3xl hover:py-1 px-3">Ecosystem</a>
+      <a href="#features" class="text-gray-300 text-sm hover:bg-gray-500 hover:rounded-3xl hover:py-1 px-3">Features</a>
+      <a href="#AI" class="text-gray-300 text-sm hover:bg-gray-500 hover:rounded-3xl hover:py-1 px-3">AI</a>
+      <a href="#socialCircle" class="text-gray-300 text-sm hover:bg-gray-500 hover:rounded-3xl hover:py-1 px-3">Social Circle</a>
     </li>
   </ul>
       </div>
       <div class="hidden md:flex text-xs">Contact us</div>
     </div>
     <div id="mobile-menu" class="absolute  left-0 w-full bg-black shadow-lg hidden">
-      <a href="#" class="block px-4 py-2 hover:border rounded-3xl">Meetup</a>
-      <a href="#" class="block px-4 py-2 hover:border rounded-3xl">AI</a>
-      <a href="#" class="block px-4 py-2 hover:border rounded-3xl">Gamification</a>
-      <a href="#" class="block px-4 py-2 hover:border rounded-3xl">Contact</a>
+      <a href="#meetup" class="block px-4 py-2 hover:border rounded-3xl">Meetup</a>
+      <a href="#ecosystem" class="block px-4 py-2 hover:border rounded-3xl">AI</a>
+      <a href="#features" class="block px-4 py-2 hover:border rounded-3xl">Gamification</a>
+      <a href="#AI" class="block px-4 py-2 hover:border rounded-3xl">Contact</a>
+      <a href="#socialCircle" class="block px-4 py-2 hover:border rounded-3xl">Social Circle</a>
     </div>
   </nav>
 
@@ -82,8 +83,9 @@
   @include('sections.railyEcosystem')
   @include('sections.allFeatures')
   @include('sections.arMode')
+  @include('sections.socialCircle')
 
-</main> -->
+</main>
 
 
 
@@ -94,13 +96,3 @@
     </body>
 </html>
 
-<script>
-    document.getElementById('menu-button').addEventListener('click', function() {
-      const menu = document.getElementById('mobile-menu');
-      if (menu.classList.contains('hidden')) {
-        menu.classList.remove('hidden');
-      } else {
-        menu.classList.add('hidden');
-      }
-    });
-  </script>
